@@ -5,12 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>MyToDo</title>
 </head>
 
 <body>
+    <form class="login">
+        <label class="login-label">
+            <h1>Who's there?</h1>
+            <input class="userName" type="text" autofocus="autofocus">
+            <input type="submit" style="display: none;">
+        </label>
+        <h1 class="Sayhello"></h1>
+    </form>
 
+
+    <div class="con hide">
+        <div class="Util"></div>
+        <div class="note"></div>
+        <div class="todolist"></div>
+    </div>
     <script src="js/background.js"></script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>
