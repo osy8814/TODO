@@ -39,6 +39,7 @@ function chkList(event) {
     spanInLi.style.textDecoration = "line-through";
     chkdtoDos.push(selectedLi.id);
     saveToLocal();
+    saveChkdToLocal();
 }
 
 // chkList override
