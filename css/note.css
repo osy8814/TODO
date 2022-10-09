@@ -32,6 +32,7 @@
     border: none;
     font-size: 3vmin;
     font-family: 'Ephesis', 'Papyurs';
+    font-weight: bold;
 }
 
 #note__memo::-webkit-scrollbar {
@@ -43,7 +44,7 @@
 }
 
 .btnSet span {
-    font-size: 3vmin;
+    font-size: 6vmin;
     margin-left: 30px;
     cursor: pointer;
 }

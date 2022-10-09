@@ -38,7 +38,7 @@ const quotes = [
 
 ];
 
-const todayQuote = quotes[Math.round(Math.random() * quotes.length)];
+const todayQuote = quotes[Math.round(Math.random() * (quotes.length - 1))];
 
 const quote = document.querySelector(`.quote p`);
 const author = document.querySelector(`.quote h6`);

@@ -1,0 +1,45 @@
+.mySpace {
+    grid-row: 5/-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewUser {
+    font-size: 5vmin;
+}
+
+.viewUser i {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.mySpace button {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Ephesis', 'Papyurs';
+    font-size: 20px;
+    background-color: #000000;
+    color: var(--whiteBackground);
+    cursor: pointer;
+    animation: twinkle 10s infinite;
+}
+
+@keyframes twinkle {
+    0% {
+        background-color: black;
+        color: white;
+    }
+
+    50% {
+        background-color: white;
+        color: black
+    }
+
+    100% {
+        background-color: black;
+        color: white;
+    }
+}

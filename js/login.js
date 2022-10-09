@@ -9,7 +9,7 @@ const KEY_USERNAME = "Username";
 function logIn(event) {
     event.preventDefault();
     const User = document.querySelector(".userName");
-    let UserName = User.value;
+    const UserName = User.value;
     localStorage.setItem(KEY_USERNAME, UserName);
 
 
