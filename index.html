@@ -21,12 +21,57 @@
 
 
     <div class="con hide">
-        <div class="Util"></div>
-        <div class="note"></div>
-        <div class="todolist"></div>
+        <div class="Util">
+            <div class="Now">
+                <div class="date"></div>
+                <div class="clock">00:00:00</div>
+            </div>
+            <div class="weather">
+                <span class="city"></span>
+                <span class="condition"></span>
+            </div>
+            <div class="iconSet">
+                <a href="https://nomadcoders.co/" target="_blank"><img src="img/nomad.svg" alt=""></a>
+                <a href="https://www.google.com/" target="_blank"><img src="img/Google__G__Logo.png" alt=""></a>
+                <a href="https://github.com/" target="_blank"><img src="img/Octicons-mark-github.svg" alt=""></a>
+                <a href="https://replit.com/" target="_blank"><img src="img/favicon-196.png" alt=""></a>
+                <a href="https://codesandbox.io/" target="_blank"><img src="img/4691539_codesandbox_icon.png"
+                        alt=""></a>
+                <a href="https://unsplash.com/" target="_blank"><img src="img/favicon-32x32.png" alt=""></a>
+            </div>
+            <div class="quote">
+                <p></p>
+                <h6></h6>
+            </div>
+        </div>
+        <div class="note">
+            <div class="note__title"><i class="fas fa-marker"></i>Note<i class="fas fa-book"></i></div>
+            <form class="note__main">
+                <textarea name="memo" id="note__memo" class="note__memo" placeholder="Write Here!"></textarea>
+                <div class="btnSet">
+                    <span class="saveNote" title="Save"><i class="fas fa-save"></i></span>
+                    <span class="clearNote" title="Delete"><i class="fas fa-trash-alt"></i></i></span>
+                </div>
+            </form>
+        </div>
+        <div class="todolist">
+            <div class="todolist__title"><i class="fas fa-stopwatch"></i>ToDo List<i class="fas fa-list-ul"></i></div>
+            <form class="todolist__main">
+                <ul class="todolist__main-list"></ul>
+                <input type="text" class="todolist__main-input" placeholder="Write a To Do">
+            </form>
+        </div>
     </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
     <script src="js/background.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/clcokAndDate.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/toDoList.js"></script>
+    <script src="js/note.js"></script>
 </body>
 
 </html>

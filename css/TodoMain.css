@@ -9,21 +9,20 @@
 }
 
 .con>div {
-    background-color: rgba(255, 255, 255, 0.6);
     min-width: 450px;
-
 }
 
-
 .Util {
-    width: 50%;
+    width: 40%;
     min-height: 35%;
 }
 
 .note {
-    width: 20%;
+    background-color: var(--whiteBackground);
+    width: 25%;
 }
 
 .todolist {
-    width: 20%;
+    background-color: var(--whiteBackground);
+    width: 25%;
 }

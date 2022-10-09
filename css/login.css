@@ -15,11 +15,9 @@
 }
 
 .userName {
-    background-color: transparent;
-    border: none;
     border-bottom: 1px solid black;
     font-size: 30px;
-    text-align: center;
+
 }
 
 .userName:focus {

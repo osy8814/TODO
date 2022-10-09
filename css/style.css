@@ -1,8 +1,17 @@
-@import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Ephesis&display=swap');
+@import url("variables.css");
+
 
 @import url("login.css");
 @import url("TodoMain.css");
+@import url("Utill.css");
+@import url("clockAndDate.css");
+@import url("IconSet.css");
+@import url("quote.css");
+@import url("toDolist.css");
+@import url("note.css");
+
+@import url("reset.css");
 
 @font-face {
     font-family: 'Papyurs';
@@ -28,7 +37,15 @@ body {
 
 input {
     font-family: 'Ephesis', 'Papyurs';
+    background-color: transparent;
+    border: none;
+    text-align: center;
 }
+
+input::placeholder {
+    color: black;
+}
+
 
 div {
     border-radius: 20px;
