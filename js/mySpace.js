@@ -20,7 +20,7 @@ logoutIcon.addEventListener("click", logOut);
 
 function changebackground() {
     let Idx = Math.round(Math.random() * 15) + 1;
-    url = `../img/${Idx}.jpg`;
+    url = `./img/${Idx}.jpg`;
 
     document.body.style.background = `url(${url}) no-repeat`;
     document.body.style.backgroundSize = `cover`;
