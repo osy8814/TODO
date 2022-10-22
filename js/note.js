@@ -24,11 +24,11 @@ ClearBtn.addEventListener("click", clearNote);
 
 const SizeController = {
     SizeUp: function () {
-        DefaultFontSize = DefaultFontSize + 1;
+        DefaultFontSize = DefaultFontSize + 0.5;
         Note.style.fontSize = `${DefaultFontSize}vmin`;
     },
     SizeDown: function () {
-        DefaultFontSize = DefaultFontSize - 1;
+        DefaultFontSize = DefaultFontSize - 0.5;
         if (DefaultFontSize < 1) {
             DefaultFontSize = 1;
         }
