@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Ephesis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&family=Ephesis&display=swap");
 @import url("variables.css");
-
 
 @import url("login.css");
 @import url("TodoMain.css");
@@ -16,40 +15,30 @@
 @import url("reset.css");
 
 @font-face {
-    font-family: 'Papyurs';
-    src: url('../font/Typo_PapyrusL.ttf');
+  font-family: "Papyurs";
+  src: url("../font/Typo_PapyrusL.ttf");
 }
 
 :root {
-    font-family: 'Ephesis', 'Papyurs';
-    font-weight: bold;
-}
-
-body {
-    box-sizing: border-box;
-    padding: 20px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Ephesis", "Papyurs";
+  font-weight: bold;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 input {
-    font-family: 'Ephesis', 'Papyurs';
-    background-color: transparent;
-    border: none;
-    text-align: center;
+  font-family: "Ephesis", "Papyurs";
+  background-color: transparent;
+  border: none;
+  text-align: center;
 }
 
 input::placeholder {
-    color: black;
+  color: black;
 }
 
-
 div {
-    border-radius: 20px;
+  border-radius: 20px;
 }
